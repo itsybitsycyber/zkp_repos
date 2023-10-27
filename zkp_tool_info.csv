@@ -1,37 +1,37 @@
-,Unnamed: 0,UniqueID,Name,Description,URL,ToolType,ProofConstruction,ProvingSystem,Language
-0,1169,algebra/arkworks-rs,arkworks/algebra,"Libraries for finite field, elliptic curve, and polynomial arithmetic",https://github.com/arkworks-rs/algebra,Low-level ZK Development,snark,,Rust
-1,1170,circom-compat/arkworks-rs,arkworks/circom-compat,"Arkworks bindings to Circom's R1CS, for Groth16 Proof and Witness generation in Rust.",https://github.com/arkworks-rs/circom-compat,Low-level ZK Development,snark,groth16,Rust
-2,1171,crypto-primitives/arkworks-rs,arkworks/crypto-primitives,"Interfaces and implementations of cryptographic primitives, along with R1CS constraints for them",https://github.com/arkworks-rs/crypto-primitives,Low-level ZK Development,snark,,Rust
-3,1172,curves/arkworks-rs,arkworks/curves,Implementations of popular elliptic curves ,https://github.com/arkworks-rs/curves,Low-level ZK Development,snark,,Rust
-4,1173,gemini/arkworks-rs,arkworks/gemini,An elastic proof system based on arkworks,https://github.com/arkworks-rs/gemini,Low-level ZK Development,snark,gemini,Rust
-5,1174,gm17/arkworks-rs,arkworks/gm17,A Rust library for the preprocessing zkSNARK of Groth and Maller,https://github.com/arkworks-rs/gm17,Low-level ZK Development,snark,gm17,Rust
-6,1175,groth16/arkworks-rs,arkworks/groth16,A Rust implementation of the Groth16 zkSNARK,https://github.com/arkworks-rs/groth16,Low-level ZK Development,snark,groth16,Rust
-7,1176,marlin/arkworks-rs,arkworks/marlin,A Rust library for the Marlin preprocessing zkSNARK,https://github.com/arkworks-rs/marlin,Low-level ZK Development,snark,marlin,Rust
-8,1177,nonnative/arkworks-rs,arkworks/nonnative,R1CS constraints for non-native field arithmetic,https://github.com/arkworks-rs/nonnative,Low-level ZK Development,snark,,Rust
-9,1178,poly-commit/arkworks-rs,arkworks/poly-commit,A Rust library for polynomial commitments,https://github.com/arkworks-rs/poly-commit,Low-level ZK Development,snark,marlin,Rust
-10,1179,r1cs-std/arkworks-rs,arkworks/r1cs-std,"R1CS constraints for bits, fields, and elliptic curves",https://github.com/arkworks-rs/r1cs-std,Low-level ZK Development,snark,,Rust
-11,1180,snark/arkworks-rs,arkworks/snark,Interfaces for Relations and SNARKs for these relations,https://github.com/arkworks-rs/snark,Low-level ZK Development,snark,,Rust
-12,1181,sponge/arkworks-rs,arkworks/sponge,This library is archived; see crypto-primities for the latest version of this code,https://github.com/arkworks-rs/sponge,Low-level ZK Development,snark,,Rust
-13,1182,std/arkworks-rs,arkworks/std,A standard library wrapper for use in the `arkworks` ecosystem,https://github.com/arkworks-rs/std,Low-level ZK Development,snark,,Rust
-14,1183,bellman/zkcrypto,bellman,zk-SNARK library.,https://github.com/zkcrypto/bellman,Library,snark,groth16,Rust
-15,1184,bulletproofs/dalek-cryptography,bulletproofs, A pure-Rust implementation of Bulletproofs using Ristretto.,https://github.com/dalek-cryptography/bulletproofs,Proof System,bulletproofs,merlin,Rust
-16,1185,bulletproofs/sdiehl,bulletproofs (sdiehl),Bulletproofs are short non-interactive zero-knowledge proofs that require no trusted setup ,https://github.com/sdiehl/bulletproofs,Proof System,bulletproofs,,Haskell
-17,1187,cairo-lang/starkware-libs,cairo-lang,,https://github.com/starkware-libs/cairo-lang,DSL,stark,,Python
-18,1188,circom/iden3,circom,zkSnark circuit compiler,https://github.com/iden3/circom,DSL,snark,plonk,WebAssembly
-19,1189,circomlib/iden3,circomlib,Library of basic circuits for circom,https://github.com/iden3/circomlib,Library,snark,plonk,JavaScript
-20,1190,gnark/consensys,gnark,gnark is a fast zk-SNARK library that offers a high-level API to design circuits. The library is open source and developed under the Apache 2.0 license,https://github.com/Consensys/gnark,Library,snark,"groth16, plonk",Go
-21,1191,halo2/zcash,halo2,,https://github.com/zcash/halo2,Proof System,bulletproofs,halo,Rust
-22,1192,leo/aleohq,leo,"🦁 The Leo Programming Language. A Programming Language for Formally Verified, Zero-Knowledge Applications",https://github.com/AleoHQ/leo,DSL,snark,,Rust
-23,1193,libsnark/scipr-lab,libsnark,C++ library for zkSNARKs,https://github.com/scipr-lab/libsnark,Library,snark,,C++
-24,1194,merlin/dalek-cryptography,merlin,Composable proof transcripts for public-coin arguments of knowledge,https://github.com/dalek-cryptography/merlin,Proof System,bulletproofs,merlin,Rust
-25,1195,miden-vm/0xpolygonmiden,miden-vm,STARK-based virtual machine,https://github.com/0xPolygonMiden/miden-vm,zkEVM,stark,,Rust
-26,1197,openzkp/0xproject,openzkp,OpenZKP - pure Rust implementations of Zero-Knowledge Proof systems.,https://github.com/0xProject/OpenZKP,Library,stark,,Rust
-27,1198,plonky/mir-protocol,plonky,Recursive SNARKs based on Plonk and Halo,https://github.com/mir-protocol/plonky,Proof System,snark,"plonk, halo",Rust
-28,1199,plonky2/mir-protocol,plonky2,,https://github.com/mir-protocol/plonky2,Proof System,"snark, stark",plonk,Rust
-29,1200,plonky3/plonky3,plonky3,A collection of libraries related to polynomial IOPs (PIOPs),https://github.com/Plonky3/Plonky3,Library,"plonk, stark",,Rust
-30,1201,pysnark/charterhouse,pysnark,Python-based system for zk-SNARK based verifiable computations and smart contracts,https://github.com/Charterhouse/pysnark,Library,snark,pinocchio,Python
-31,1202,risc0/risc0,risc0,RISC Zero is a zero-knowledge verifiable general computing platform based on zk-STARKs and the RISC-V microarchitecture.,https://github.com/risc0/risc0,zkVM,stark,,C++
-32,1203,snarkjs/iden3,snarkjs,zkSNARK implementation in JavaScript & WASM,https://github.com/iden3/snarkjs,Library,snark,plonk,JavaScript
-33,1204,snarky/o1-labs,snarky,OCaml DSL for verifiable computation,https://github.com/o1-labs/snarky,DSL,snark,,OCaml
-34,1206,winterfell/facebook,winterfell,A STARK prover and verifier for arbitrary computations,https://github.com/facebook/winterfell,Library,stark,,Rust
-35,1207,zksync/matter-labs,zksync,zkSync: trustless scaling and privacy engine for Ethereum,https://github.com/matter-labs/zksync,zkEVM,snark,,Rust
+;Unnamed: 0;UniqueID;Name;Description;URL;ToolType;ProofConstruction;ProvingSystem;Language
+0;1169;algebra/arkworks-rs;arkworks/algebra;Libraries for finite field, elliptic curve, and polynomial arithmetic;https://github.com/arkworks-rs/algebra;Low-level ZK Development;snark;;Rust
+1;1170;circom-compat/arkworks-rs;arkworks/circom-compat;Arkworks bindings to Circom's R1CS, for Groth16 Proof and Witness generation in Rust.;https://github.com/arkworks-rs/circom-compat;Low-level ZK Development;snark;groth16;Rust
+2;1171;crypto-primitives/arkworks-rs;arkworks/crypto-primitives;Interfaces and implementations of cryptographic primitives, along with R1CS constraints for them;https://github.com/arkworks-rs/crypto-primitives;Low-level ZK Development;snark;;Rust
+3;1172;curves/arkworks-rs;arkworks/curves;Implementations of popular elliptic curves ;https://github.com/arkworks-rs/curves;Low-level ZK Development;snark;;Rust
+4;1173;gemini/arkworks-rs;arkworks/gemini;An elastic proof system based on arkworks;https://github.com/arkworks-rs/gemini;Low-level ZK Development;snark;gemini;Rust
+5;1174;gm17/arkworks-rs;arkworks/gm17;A Rust library for the preprocessing zkSNARK of Groth and Maller;https://github.com/arkworks-rs/gm17;Low-level ZK Development;snark;gm17;Rust
+6;1175;groth16/arkworks-rs;arkworks/groth16;A Rust implementation of the Groth16 zkSNARK;https://github.com/arkworks-rs/groth16;Low-level ZK Development;snark;groth16;Rust
+7;1176;marlin/arkworks-rs;arkworks/marlin;A Rust library for the Marlin preprocessing zkSNARK;https://github.com/arkworks-rs/marlin;Low-level ZK Development;snark;marlin;Rust
+8;1177;nonnative/arkworks-rs;arkworks/nonnative;R1CS constraints for non-native field arithmetic;https://github.com/arkworks-rs/nonnative;Low-level ZK Development;snark;;Rust
+9;1178;poly-commit/arkworks-rs;arkworks/poly-commit;A Rust library for polynomial commitments;https://github.com/arkworks-rs/poly-commit;Low-level ZK Development;snark;marlin;Rust
+10;1179;r1cs-std/arkworks-rs;arkworks/r1cs-std;R1CS constraints for bits, fields, and elliptic curves;https://github.com/arkworks-rs/r1cs-std;Low-level ZK Development;snark;;Rust
+11;1180;snark/arkworks-rs;arkworks/snark;Interfaces for Relations and SNARKs for these relations;https://github.com/arkworks-rs/snark;Low-level ZK Development;snark;;Rust
+12;1181;sponge/arkworks-rs;arkworks/sponge;"This library is archived; see crypto-primities for the latest version of this code";https://github.com/arkworks-rs/sponge;Low-level ZK Development;snark;;Rust
+13;1182;std/arkworks-rs;arkworks/std;A standard library wrapper for use in the `arkworks` ecosystem;https://github.com/arkworks-rs/std;Low-level ZK Development;snark;;Rust
+14;1183;bellman/zkcrypto;bellman;zk-SNARK library.;https://github.com/zkcrypto/bellman;Library;snark;groth16;Rust
+15;1184;bulletproofs/dalek-cryptography;bulletproofs; A pure-Rust implementation of Bulletproofs using Ristretto.;https://github.com/dalek-cryptography/bulletproofs;Proof System;bulletproofs;merlin;Rust
+16;1185;bulletproofs/sdiehl;bulletproofs (sdiehl);Bulletproofs are short non-interactive zero-knowledge proofs that require no trusted setup ;https://github.com/sdiehl/bulletproofs;Proof System;bulletproofs;;Haskell
+17;1187;cairo-lang/starkware-libs;cairo-lang;;https://github.com/starkware-libs/cairo-lang;DSL;stark;;Python
+18;1188;circom/iden3;circom;zkSnark circuit compiler;https://github.com/iden3/circom;DSL;snark;plonk;WebAssembly
+19;1189;circomlib/iden3;circomlib;Library of basic circuits for circom;https://github.com/iden3/circomlib;Library;snark;plonk;JavaScript
+20;1190;gnark/consensys;gnark;gnark is a fast zk-SNARK library that offers a high-level API to design circuits. The library is open source and developed under the Apache 2.0 license;https://github.com/Consensys/gnark;Library;snark;groth16, plonk;Go
+21;1191;halo2/zcash;halo2;;https://github.com/zcash/halo2;Proof System;bulletproofs;halo;Rust
+22;1192;leo/aleohq;leo;🦁 The Leo Programming Language. A Programming Language for Formally Verified, Zero-Knowledge Applications;https://github.com/AleoHQ/leo;DSL;snark;;Rust
+23;1193;libsnark/scipr-lab;libsnark;C++ library for zkSNARKs;https://github.com/scipr-lab/libsnark;Library;snark;;C++
+24;1194;merlin/dalek-cryptography;merlin;Composable proof transcripts for public-coin arguments of knowledge;https://github.com/dalek-cryptography/merlin;Proof System;bulletproofs;merlin;Rust
+25;1195;miden-vm/0xpolygonmiden;miden-vm;STARK-based virtual machine;https://github.com/0xPolygonMiden/miden-vm;zkEVM;stark;;Rust
+26;1197;openzkp/0xproject;openzkp;OpenZKP - pure Rust implementations of Zero-Knowledge Proof systems.;https://github.com/0xProject/OpenZKP;Library;stark;;Rust
+27;1198;plonky/mir-protocol;plonky;Recursive SNARKs based on Plonk and Halo;https://github.com/mir-protocol/plonky;Proof System;snark;plonk, halo;Rust
+28;1199;plonky2/mir-protocol;plonky2;;https://github.com/mir-protocol/plonky2;Proof System;snark, stark;plonk;Rust
+29;1200;plonky3/plonky3;plonky3;A collection of libraries related to polynomial IOPs (PIOPs);https://github.com/Plonky3/Plonky3;Library;snark, stark;;Rust
+30;1201;pysnark/charterhouse;pysnark;Python-based system for zk-SNARK based verifiable computations and smart contracts;https://github.com/Charterhouse/pysnark;Library;snark;pinocchio;Python
+31;1202;risc0/risc0;risc0;RISC Zero is a zero-knowledge verifiable general computing platform based on zk-STARKs and the RISC-V microarchitecture.;https://github.com/risc0/risc0;zkVM;stark;;C++
+32;1203;snarkjs/iden3;snarkjs;zkSNARK implementation in JavaScript & WASM;https://github.com/iden3/snarkjs;Library;snark;plonk;JavaScript
+33;1204;snarky/o1-labs;snarky;OCaml DSL for verifiable computation;https://github.com/o1-labs/snarky;DSL;snark;;OCaml
+34;1206;winterfell/facebook;winterfell;A STARK prover and verifier for arbitrary computations;https://github.com/facebook/winterfell;Library;stark;;Rust
+35;1207;zksync/matter-labs;zksync;zkSync: trustless scaling and privacy engine for Ethereum;https://github.com/matter-labs/zksync;zkEVM;snark;;Rust
